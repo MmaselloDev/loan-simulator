@@ -948,6 +948,20 @@ input[type="range"] {
   gap: 20px;
 }
 
+.site-footer {
+  margin-top: 2rem;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #4a4a4a;
+  background: #f2f2f2;
+  border-top: 1px solid #d9d9d9;
+}
+
+.footer-text{
+  margin-top: -20px;
+  font-weight: 600;
+}
 /* ==========================================================
    Tablet
    ========================================================== */

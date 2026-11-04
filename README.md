@@ -12,6 +12,7 @@ A single-page web app that estimates whether a user may qualify for a loan. The 
 - Gives recommendation cards when an application is in Review or Declined
 - Includes a Compare Amounts page (`/compare`) that checks different loan amounts against the same rules
 - Validates all inputs with inline error messages
+- Offers four loan types (Personal Loan, Credit Card, Access Facility, Home Loan), each with a default mock interest rate that the user can edit within 7% to 30%
 - Responsive layout for desktop, tablet and mobile
 
 ## How the decision works

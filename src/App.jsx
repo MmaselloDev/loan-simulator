@@ -4,6 +4,7 @@ import LoanForm from "./components/LoanForm";
 import ResultsCard from "./components/ResultsCard";
 import CompareAmounts from "./components/CompareAmounts";
 import Header from "./components/Header"; 
+import Footer from "./components/Footer";
 import "./App.css"; 
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
           element={<CompareAmounts />}
         />
       </Routes>
+      <Footer/>
     </>
   );
 }
