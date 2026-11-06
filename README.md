@@ -86,6 +86,7 @@ The tests cover the loan calculations (`src/utils/loanCalculator.js`) and the fo
 
 ## Design decisions
 
+
 - **The loan term is in months** (slider up to 84), so calculations match how loan terms are normally quoted.
 - **The decision uses the rounded ratio**, so the percentage the user sees is the one that decides the outcome.
 - **Status never relies on colour alone.** Each decision has an icon and text as well as a colour.
